@@ -151,8 +151,8 @@ let nome = "Fiapinho"
 // console.log(usuarioLogado)
 
 
-function verificarParImpar(numero){
-    return numero % 2 === 0 ? "PAR":"IMPAR";
-}
+// function verificarParImpar(numero){
+//     return numero % 2 === 0 ? "PAR":"IMPAR";
+// }
 
-console.log(verificarParImpar(10))
+// console.log(verificarParImpar(10))
