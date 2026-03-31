@@ -66,4 +66,4 @@ console.log(valor1 <= valor2);
 console.log(valor1 != valor2);
 console.log(valor1 == valor2);
 console.log(valor1 === valor2);
-console.log("O valor é:", valor2)
+console.log("O valor é:", valor2);
