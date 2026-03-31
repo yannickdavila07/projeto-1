@@ -74,9 +74,21 @@
 
 // exercicio 1
 
-const p = 100;
-const v = 20;
+// const p = 100;
+// const v = 20;
 
-const precoFinal = p - v;
+// const precoFinal = p - v;
 
-console.log("O preço final com desconto é:", precoFinal)
+// console.log("O preço final com desconto é:", precoFinal)
+
+const token = 7777;
+const logado = 1;
+const transacaoAutorizado = logado === 1 && token >=10;
+
+
+console.log("O usuário pode fazer transação: ", transacaoAutorizado)
+
+
+
+
+
