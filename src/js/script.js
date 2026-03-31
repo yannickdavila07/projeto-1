@@ -44,26 +44,26 @@
 
 // OPERADORES ARITMÉTICOS
 
-const valor1 = 20;
-const valor2 = 10;
+// const valor1 = 20;
+// const valor2 = 10;
 
-console.log(valor1 + valor2);
-console.log(valor1 - valor2);
-console.log(valor1 / valor2);
-console.log(valor1 * valor2);
+// console.log(valor1 + valor2);
+// console.log(valor1 - valor2);
+// console.log(valor1 / valor2);
+// console.log(valor1 * valor2);
 
-// OPERADORES LÓGICOS
+// // OPERADORES LÓGICOS
 
-console.log(valor1 < valor2);
-console.log(valor1 > 10 && valor2 != 20);
-console.log(valor2 < 5 || valor1 < 50);
+// console.log(valor1 < valor2);
+// console.log(valor1 > 10 && valor2 != 20);
+// console.log(valor2 < 5 || valor1 < 50);
 
 
 //OPERADORES DE COMPARACAO
-console.log(valor1 < valor2);
-console.log(valor1 >= valor2);
-console.log(valor1 <= valor2);
-console.log(valor1 != valor2);
-console.log(valor1 == valor2);
-console.log(valor1 === valor2);
-console.log("O valor é:", valor2);
+// console.log(valor1 < valor2);
+// console.log(valor1 >= valor2);
+// console.log(valor1 <= valor2);
+// console.log(valor1 != valor2);
+// console.log(valor1 == valor2);
+// console.log(valor1 === valor2);
+// console.log("O valor é:", valor2)
