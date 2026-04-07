@@ -137,54 +137,109 @@
 //         break
 //     default:
 //         console.log("Tao ruim quanto a seleção brasileira")
-//         break    
+// //         break    
+// // }
+
+
+// //ternaria 
+// // let salario=100;
+// // let resultado = salario ==100 ? "Salario Certo" : "Salario errado";
+// // console.log(resultado);
+
+// // let usuario= "fiap";
+// // let usuarioLogado = usuario == "fiap" ? "Logado com sucesso" : "Usuário inválido"
+// // console.log(usuarioLogado)
+
+
+// // function verificarParImpar(numero){
+// //     return numero % 2 === 0 ? "PAR":"IMPAR";
+// // }
+
+// // console.log(verificarParImpar(10))
+
+// // ESTRUTURA DE REPETIÇÃO(LAÇO DE REPETIÇÃO)
+
+// //for - Estrutura de repetição mais utilizada quando sabemos previamente quantas vezes o codigo vai ser executado
+
+// //declarção, operacao, incremento 
+// for(let i = 1; i <= 5; i++){
+//     console.log("Numero: ", i)
+// }
+
+// // for par array
+
+// const linguagens = ["Java", "Python", "C#", "PHP"];
+
+// for(let i = 0; i < linguagens.length; i++){
+//     console.log("Linguagem:", i , ":", linguagens[i])
+
+// } 
+
+// const tecnologias = ["JS", "HTML", "CSS"]
+
+// for(const tech of tecnologias){
+//     console.log("Estudando", tech)
+// }
+
+// const carros = {marca:"Volks", modelo:"Fusca", ano:1980};
+
+// for(let dados in carros){
+//     console.log(dados, ":", carros[dados])
 // }
 
 
-//ternaria 
-// let salario=100;
-// let resultado = salario ==100 ? "Salario Certo" : "Salario errado";
-// console.log(resultado);
-
-// let usuario= "fiap";
-// let usuarioLogado = usuario == "fiap" ? "Logado com sucesso" : "Usuário inválido"
-// console.log(usuarioLogado)
+// //while - Diferente do for usamos o whle quando não sabemos a quantidade de vezes que o código vai executar
 
 
-// function verificarParImpar(numero){
-//     return numero % 2 === 0 ? "PAR":"IMPAR";
+// let i = 1;
+
+// while(i<=5){
+//     console.log("Contagem:",i);
+//     i++;
 // }
 
-// console.log(verificarParImpar(10))
+//declaração de variavel indefinida
 
-// ESTRUTURA DE REPETIÇÃO(LAÇO DE REPETIÇÃO)
+// let numero;
 
-//for - Estrutura de repetição mais utilizada quando sabemos previamente quantas vezes o codigo vai ser executado
+// while(numero !== "0"){
+//     numero = prompt("Digite um número(ou 0 para sair): ")
+//     console.log("eu sei o que voce digitou:", numero)
+// }
 
-//declarção, operacao, incremento 
-for(let i = 1; i <= 5; i++){
-    console.log("Numero: ", i)
-}
+// console.log("Fim do Programa")
 
-// for par array
 
-const linguagens = ["Java", "Python", "C#", "PHP"];
+//do while ("Eecuta ao menos uma vez")
 
-for(let i = 0; i < linguagens.length; i++){
-    console.log("Linguagem:", i , ":", linguagens[i])
+// let contador = 10;
+// do{
+//     console.log("vai executar pelo menos uma vez")
+//     contador++;
+// }while(contador<=5);
 
-} 
 
-const tecnologias = ["JS", "HTML", "CSS"]
 
-for(const tech of tecnologias){
-    console.log("Estudando", tech)
-}
+//declaração da variavel undefined
+let palpite;
 
-const carros = {marca:"Volks", modelo:"Fusca", ano:1980};
+//gerar um numero aleatorio entre 1 e 10
 
-for(let dados in carros){
-    console.log(dados, ":", carros[dados])
-}
+const sorteio = Math.floor(Math.random() * 10);
 
+do{
+    palpite = parseInt(prompt("Digite um número entre 1 e 10: "));
+
+    if(isNaN(palpite)){
+        alert("saindo do jogo")
+        break;
+    }
+
+    if(palpite != sorteio){
+        alert("Você Perdeu R$100,0")
+    }    
+}while(palpite != sorteio)
+    if(palpite == sorteio){
+        alert("Parabens, você acertou e ganhou R$100,00")
+    }
 
