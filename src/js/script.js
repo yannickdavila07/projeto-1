@@ -66,9 +66,9 @@
 // console.log(valor1 != valor2);
 // console.log(valor1 == valor2);
 // console.log(valor1 === valor2);
-<<<<<<< HEAD
+
 // console.log("O valor é:", valor2)
-=======
+///=======
 // console.log("O valor é:", valor2);
 
 
@@ -99,7 +99,7 @@
 
 //if//eslse
 
-let nome = "Fiapinho"
+///let nome = "Fiapinho"
 
 // if(nome=="Fiap"){
 //     console.log("Nome Verdadeiro")
@@ -159,4 +159,4 @@ let nome = "Fiapinho"
 // }
 
 // console.log(verificarParImpar(10))
->>>>>>> dev
+
