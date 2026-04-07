@@ -99,7 +99,7 @@
 
 //if//eslse
 
-///let nome = "Fiapinho"
+//let nome = "Fiapinho"
 
 // if(nome=="Fiap"){
 //     console.log("Nome Verdadeiro")
@@ -159,4 +159,35 @@
 // }
 
 // console.log(verificarParImpar(10))
+
+// ESTRUTURA DE REPETIÇÃO(LAÇO DE REPETIÇÃO)
+
+//for - Estrutura de repetição mais utilizada quando sabemos previamente quantas vezes o codigo vai ser executado
+
+//declarção, operacao, incremento 
+for(let i = 1; i <= 5; i++){
+    console.log("Numero: ", i)
+}
+
+// for par array
+
+const linguagens = ["Java", "Python", "C#", "PHP"];
+
+for(let i = 0; i < linguagens.length; i++){
+    console.log("Linguagem:", i , ":", linguagens[i])
+
+} 
+
+const tecnologias = ["JS", "HTML", "CSS"]
+
+for(const tech of tecnologias){
+    console.log("Estudando", tech)
+}
+
+const carros = {marca:"Volks", modelo:"Fusca", ano:1980};
+
+for(let dados in carros){
+    console.log(dados, ":", carros[dados])
+}
+
 
